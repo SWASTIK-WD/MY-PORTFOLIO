@@ -4,7 +4,6 @@
     font-family: 'Josefin Sans',sans-serif;
     box-sizing: border-box;
 }
-
 .hero{
     height: 100vh;
     width: 100%;
@@ -12,7 +11,6 @@
     background-size: cover;
     background-position: center;
 }
-
 nav{
     display: flex;
     align-items: center;
@@ -21,36 +19,30 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
-
 .logo{
     color: whitesmoke;
     font-size: 50px;
     letter-spacing: 1px;
     cursor: pointer;
 }
-
 span{
     color: #eee319;
 }
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 15px 25px;
 }
-
 nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
-
 nav ul li a:hover{
     color: #eee319;
     transition: .4s;
 }
-
 .btn{
     background-color: #2e19ee;
     color: white;
@@ -61,42 +53,35 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: transform .4s;
 }
-
 .btn:hover{
     transform: scale(1.2);
 }
-
 .content{
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
 }
-
 h1{
     color: white;
     margin: 20px 0px 20px;
     font-size: 65px;
 }
-
 h3{
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
-
 h4{
     color: rgba(219, 237, 79, 0.8);
     letter-spacing: 2px;
     font-size: 30px;
 }
-
 .newslatter form{
     width: 388px;
     max-width: 100%;
     position: relative;
 }
-
 .newslatter form input:first-child{
     display: inline-block;
     width: 100%;
@@ -105,7 +90,6 @@ h4{
     outline: none;
     border-radius: 30px;
 }
-
 .newslatter form input:last-child{
     position: absolute;
     display: inline-block;
@@ -119,18 +103,15 @@ h4{
     top: 6px;
     right: 6px;
 }
-
 .about{
     width: 100%;
     padding: 100px 0px;
     background-color: #191919;
 }
-
 .about img{
     height: auto;
     width: 430px;
 }
-
 .about-text{
     width: 550px;
     background-image: url(https://i.ytimg.com/vi/szP_dqVXmh8/maxresdefault.jpg);
@@ -143,7 +124,6 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
-
 .about-text h2{
     color: white;
     font-size: 75px;
@@ -157,7 +137,6 @@ h4{
     margin-bottom: 25px;
     text-transform: capitalize;
 }
-
 .about-text p{
     color: rgba(139, 193, 240, 0.845);
     letter-spacing: 1px;
@@ -165,7 +144,6 @@ h4{
     font-size: 18px;
     margin-bottom: 45px;
 }
-
 button{
     background-color: #e7190bb7;
     color: white;
@@ -176,19 +154,16 @@ button{
     border-radius: 30px;
     transition: .4s;
 }
-
 button:hover{
     background-color: transparent;
     border: 2px solid #e7190bb7;
     cursor: pointer;
 }
-
 .service{
     background: #101010;
     width: 100%;
     padding: 100px 0px;
 }
-
 .title h2{
     color: white;
     font-size: 75px;
@@ -196,14 +171,12 @@ button:hover{
     margin: 30px auto;
     text-align: center;
 }
-
 .box{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
 }
-
 .card{
     height: 365px;
     width: 335px;
@@ -215,7 +188,6 @@ button:hover{
     overflow: hidden;
     text-align: center;
 }
-
 .card i{
     font-size: 50px;
     display: block;
@@ -223,20 +195,17 @@ button:hover{
     margin: 25px 0px;
     color: #eee319;
 }
-
 h5{
     color: whitesmoke;
     font-size: 23px;
     margin-bottom: 15px;
 }
-
 .pra p{
     color: rgba(162, 155, 162, 0.936);
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
 }
-
 .card .button{
     background-color: #e7190bb7;
     color: white;
@@ -247,13 +216,11 @@ h5{
     border-radius: 30px;
     transition: .4s;
 }
-
 .card .button:hover{
     background-color: transparent;
     border: 2px solid #e7190bb7;
     cursor: pointer;
 }
-
 .contact-me{
     width: 100%;
     height: 290px;
@@ -263,14 +230,12 @@ h5{
     flex-direction: column;
     justify-content: center;
 }
-
 .contact-me p{
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
-
 .contact-me .button-two{
     background-color: #e7190bb7;
     color: white;
@@ -281,13 +246,11 @@ h5{
     border-radius: 30px;
     transition: .4s;
 }
-
 .contact-me .button-two:hover{
     background-color: transparent;
     border: 2px solid #e7190bb7;
     cursor: pointer;
 }
-
 .footer {
     position: relative;
     width: 100%;
@@ -299,7 +262,6 @@ h5{
     align-items: center;
     flex-direction: column;
   }
-
 .social-icon,
 .menu {
   position: relative;
@@ -309,12 +271,10 @@ h5{
   margin: 10px 0;
   flex-wrap: wrap;
 }
-
 .social-icon__item,
 .menu__item {
   list-style: none;
 }
-
 .social-icon__link {
   font-size: 2rem;
   color: #fff;
@@ -325,7 +285,6 @@ h5{
 .social-icon__link:hover {
   transform: translateY(-10px);
 }
-
 .menu__link {
     font-size: 1.2rem;
     color: #fff;
@@ -336,18 +295,15 @@ h5{
     opacity: 0.75;
     font-weight: 300;
   }
-  
   .menu__link:hover {
     opacity: 1;
   }
-
   .footer p {
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;
   }
-  
   .wave {
     position: absolute;
     top: -100px;
@@ -357,35 +313,30 @@ h5{
     background: url("https://i.ibb.co/wQZVxxk/wave.png");
     background-size: 1000px 100px;
   }
-
   .wave#wave1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
-  
   .wave#wave2 {
     z-index: 999;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
-  
   .wave#wave3 {
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
-  
   .wave#wave4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;
   }
-  
   @keyframes animateWaves {
     0% {
       background-position-x: 1000px;
@@ -394,7 +345,6 @@ h5{
       background-positon-x: 0px;
     }
   }
-  
   @keyframes animate {
     0% {
       background-position-x: -1000px;
